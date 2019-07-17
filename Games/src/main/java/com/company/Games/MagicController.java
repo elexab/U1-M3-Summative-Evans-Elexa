@@ -37,7 +37,7 @@ public class MagicController {
         @ResponseStatus(value = HttpStatus.CREATED)
         public String getResponse (){
                 //RETURN RANDOM RESPONSE
-               return responses.get(rand.nextInt(responses.size()));
+               return this.responses.get(rand.nextInt(responses.size()));
         }
 
 
